@@ -1,0 +1,89 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Background Gradient */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to bottom, #2b6cb0, #1e3a8a);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+/* Navbar */
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Content */
+.content h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.content h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.content p {
+  max-width: 400px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn, .btn-outline {
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid white;
+}
+
+.btn-outline {
+  border: 1px solid white;
+}
+
+/* Sun Circle */
+.sun {
+  width: 120px;
+  height: 120px;
+  background: orange;
+  border-radius: 50%;
+} 
