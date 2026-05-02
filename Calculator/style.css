@@ -1,0 +1,94 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.wrapper {
+  background: #e6e2e2;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 5px 15px rgb(219, 216, 216);
+}
+
+.InputArea input {
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 15px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #ffffff;   /* visible white */
+  color: #000000;        /* black text */
+  font-weight: bold;
+
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+}
+
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+
+.buttons input {
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Number Buttons */
+.btnr2 input {
+  background: #e0e0e0;
+}
+
+/* Operator Buttons */
+.btnr1 input {
+  background: orange;
+  color: white;
+}
+
+/* Equal Button */
+.btnEq input {
+  background: green;
+  color: white;
+}
+
+/* Clear Button */
+.btnC input {
+  background: red;
+  color: white;
+}
+
+/* Hover Effect */
+.buttons input:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Click Effect */
+.buttons input:active {
+  transform: scale(0.95);
+} 
